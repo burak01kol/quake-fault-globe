@@ -1,0 +1,70 @@
+﻿{
+  "type": "FeatureCollection",
+  "name": "sample_faults",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "fault_A"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            26.0,
+            39.0
+          ],
+          [
+            28.0,
+            39.2
+          ],
+          [
+            30.0,
+            39.4
+          ],
+          [
+            32.0,
+            39.6
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "fault_B"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.0,
+            37.0
+          ],
+          [
+            37.0,
+            37.2
+          ],
+          [
+            39.0,
+            37.4
+          ],
+          [
+            41.0,
+            37.6
+          ],
+          [
+            43.0,
+            37.8
+          ]
+        ]
+      }
+    }
+  ]
+}

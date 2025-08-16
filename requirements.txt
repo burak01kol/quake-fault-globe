@@ -1,0 +1,9 @@
+plotly
+pandas
+geopandas
+shapely
+requests
+numpy
+folium
+# PNG export için (opsiyonel):
+kaleido
